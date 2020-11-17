@@ -1,3 +1,5 @@
+![](./demo/demo.gif =600x)
+
 # react-multi-profile-dashboard-template
 
 A dashboard template that allows creating different profiles to populate the dashboard.
@@ -15,7 +17,6 @@ Features:
 - 404 Error page
 - Global store using react hooks
 - Dynamic sidebar which adds NavItems based on the profiles
-
 
 ## Available Scripts
 
