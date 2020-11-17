@@ -1,4 +1,4 @@
-![](./demo/demo.gif =600x)
+![](./demo/demo.gif)
 
 # react-multi-profile-dashboard-template
 
