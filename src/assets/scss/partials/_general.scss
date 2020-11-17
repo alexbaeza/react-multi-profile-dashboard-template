@@ -1,0 +1,107 @@
+/**  =====================
+      Custom css start
+==========================  **/
+
+:root {
+  --blue: $primary-color;
+  --indigo: #6610f2;
+  --purple: $purple-color;
+  --pink: #e83e8c;
+  --red: $danger-color;
+  --orange: #fd7e14;
+  --yellow: $warning-color;
+  --green: #28a745;
+  --teal: $success-color;
+  --cyan: $info-color;
+  --white: #fff;
+  --gray: #8c98a4;
+  --gray-dark: $secondary-color;
+  --primary: #377dff;
+  --secondary: $secondary-color;
+  --success: $success-color;
+  --info: $info-color;
+  --warning: $warning-color;
+  --danger: $danger-color;
+  --light: $light-color;
+  --dark: $dark-color;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: $theme-font-family;
+  font-size: $theme-font-size;
+  color: $theme-font-color;
+  font-weight: 400;
+  background: $theme-background;
+  position: relative;
+}
+
+* {
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  &:hover {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $theme-heading-color;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 14px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.img-radius {
+  border-radius: 50%;
+}
+
+p.text-muted {
+  font-size: 13px;
+}

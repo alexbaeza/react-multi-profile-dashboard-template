@@ -1,0 +1,22 @@
+$header-height: 70px;
+$menu-width: 75px;
+
+// color palette
+$primary-color: #377dff;
+$secondary-color: #71869d;
+$warning-color: #f5ca99;
+$danger-color: #ed4c78;
+$success-color: #00c9a7;
+$purple-color: #6f42c1;
+$info-color: #00c9db;
+$default-color: #d6d6d6;
+$light-color: #f9fafc;
+$dark-color: #132144;
+
+//loader
+$loader-color: $primary-color !default;
+$loader-size: 56px !default;
+$loader-height: 20px !default;
+$loader-border-size: 8px !default;
+$loader-gap: 12px !default;
+$loader-animation-duration: 1s !default;

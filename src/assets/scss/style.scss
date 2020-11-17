@@ -1,0 +1,21 @@
+/**======================================================================
+=========================================================================
+Template Name: React Multi Profile Dashboard Template
+Author: alexbaeza
+File: style.css
+=================================================================================
+=================================================================================== */
+@import "~bootstrap/dist/css/bootstrap";
+
+//// Important Elements
+@import "partials/variables";
+@import "partials/mixins";
+
+// Layout Element
+@import "src/assets/scss/partials/layout/layout";
+@import "src/assets/scss/partials/layout/loader";
+
+//// Theme Elements
+@import "partials/theme-elements/nav";
+@import "partials/theme-elements/error";
+@import "partials/theme-elements/avatar";
