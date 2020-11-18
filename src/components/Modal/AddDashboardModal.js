@@ -49,7 +49,7 @@ const AddDashboardModal = () => {
               </Form.Text>
             </Form.Group>
             <Form.Group>
-              <Form.Label>Dashboard Identifier</Form.Label>
+              <Form.Label>Dashboard Name</Form.Label>
               <InputGroup>
                 <FormControl
                   type="text"
